@@ -4,10 +4,11 @@ using namespace std;
 
 int main()
 {
-    vector<string> names = {"Hamna", "Yumna", "Mishal", "Fizza"};
+    vector<string> flower = {"Rose", "Jasmine", "Lilly", "Daisy"};
 
-    names[1] = "Ayesha";
+    // Change the value of the first element
+    flower.at(0) = "Daffodils";
 
-    cout << names[3];
+    cout << flower.at(0);
     return 0;
 }
