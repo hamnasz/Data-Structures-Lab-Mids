@@ -5,8 +5,8 @@ using namespace std;
 int main()
 {
     list<char> name = {'H', 'A', 'M', 'N', 'A'};
-    for (int names : name)
+    for (char names : name){
         cout << names << endl;
-
+    }
     return 0;
 }
